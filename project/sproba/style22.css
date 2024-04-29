@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+}
+
+.card{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 280px;
+    background-color: aliceblue;
+    flex: 1;
+    transition: 0.3s all ease;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: blanchedalmond;
+}
+
+
+.text{
+    text-align: center;
+    font-size: 22px;
+   
+}
+
+body{
+    background-color: blue;
+}

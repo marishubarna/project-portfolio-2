@@ -1,0 +1,36 @@
+body{
+    background-image: url(images/aboutus2.jpg);
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+p{
+    font-size: 26px;
+}
+
+.containe{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.context{
+   
+    width: 50%;
+    height: 80%;
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    padding: 15px;
+}
